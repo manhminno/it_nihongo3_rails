@@ -1,5 +1,5 @@
 # Rails.application.routes.draw do
-  resources :book_reviews
+  # resources :book_reviews
 # <<<<<<< add_detail_book
 #   get 'static_pages/home'
 # =======
