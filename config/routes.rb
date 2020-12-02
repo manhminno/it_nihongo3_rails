@@ -1,4 +1,5 @@
 # Rails.application.routes.draw do
+  # resources :book_reviews
 # <<<<<<< add_detail_book
 #   get 'static_pages/home'
 # =======
@@ -9,6 +10,7 @@
 # end
 
 Rails.application.routes.draw do
+  resources :book_reviews
   root 'static_pages#home'
   devise_for :users
   resources :books
